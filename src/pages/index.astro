@@ -39,23 +39,25 @@ const { banner, features } = homepage.data as Homepage;
 
 <Base>
   <!-- Banner -->
-  <section class="section pt-14">
+  <section class="section pt-8">
     <div class="container">
       <div class="row justify-center">
         {
           banner.image && (
-            <div class="lg:col-6 md:col-6 mb-8 text-left">
+            <div class="lg:col-6 md:col-6 mb-8 text-left h-[850px] mt-20">
               <ImageMod
                 src={banner.image}
-                height={380}
-                width={1200}
+                height={1080}
+                width={1080}
                 alt="banner"
                 format="webp"
+                loading="eager"
+                class="w-full h-full object-cover"
               />
             </div>
           )
         }
-        <div class="lg:col-6 md:col-6 mb-8 text-left">
+        <div class="lg:col-6 md:col-6 mb-8 text-left" mt-10>
           <h1
             set:html={markdownify(banner.title)}
             class="mb-4 text-h3 lg:text-h1"

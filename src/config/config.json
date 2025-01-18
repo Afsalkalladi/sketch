@@ -5,17 +5,17 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "logo": "/images/logosketch.png",
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
-    "logo_height": "30",
-    "logo_text": "Astroplate"
+    "logo_height": "50",
+    "logo_text": "Sketch Robotics"
   },
 
   "settings": {
-    "search": true,
-    "sticky_header": true,
-    "theme_switcher": true,
+    "search": false,
+    "sticky_header": false,
+    "theme_switcher": false,
     "default_theme": "system",
     "pagination": 2,
     "summary_length": 200,
