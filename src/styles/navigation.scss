@@ -12,7 +12,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .header {
-  @apply bg-[linear-gradient(100deg,#827f7f,#dbdbdb,#d8d8d8)] py-6 dark:bg-darkmode-body;
+  @apply bg-[linear-gradient(100deg,#dbdbdb_100%,#827f7f_100%,#d8d8d8)] py-6 dark:bg-darkmode-body;
 }
 
 // navbar items

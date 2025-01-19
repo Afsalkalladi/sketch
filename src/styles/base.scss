@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  @apply bg-[linear-gradient(100deg,#827f7f,#dbdbdb,#d8d8d8)] dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text;
+  @apply xl:bg-[linear-gradient(18deg,#dbdbdb_71.43%,#827f7f_82.35%,#d8d8d8_82.35%)] bg-[size:100%_100%] bg-[position:bottom_right] dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text ;
 }
 
 h1,
